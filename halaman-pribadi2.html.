@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfa Mubarok - Halaman Pribadi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #003366; /* Biru tua */
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #003366; /* Biru tua */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .content {
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #003366; /* Biru tua */
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact {
+            background-color: #e6f7ff; /* Biru muda */
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Alfa Mubarok</h1>
+            <p>Member Best Corporation Syariah dan Mentor Best Support System</p>
+        </div>
+    </header>
+    <nav>
+        <a href="#about">Tentang Saya</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+    <div class="container">
+        <div id="about" class="content">
+            <h2>Tentang Saya</h2>
+            <p>Saya membantu rekan bisnis di Best Corporation berkembang dan berpenghasilan.</p>
+        </div>
+        <div id="contact" class="content contact">
+            <h2>Kontak</h2>
+            <p>WhatsApp: <a href="tel:+6285951655638">085951655638</a></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Alfa Mubarok. Hak cipta dilindungi.</p>
+    </footer>
+</body>
+</html>
